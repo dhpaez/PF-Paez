@@ -1,0 +1,152 @@
+@use './variables';
+/*mobile*/
+@media screen and (min-width: 0px) and (max-width: 767px) {
+  
+    .main_section_article_divImage{
+        display: flex;
+        justify-content: center;
+    }
+    p{
+        font-family: variables.$font-anton;
+    }
+    .main_section_article_div_img{
+        width: 120px;
+        height: 120px;
+		
+    }
+    h2{
+        font-size: 12px;
+        text-align: center;
+    }
+    .products{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        
+    }
+    .main_section_article_img{
+        display: inline-block;
+        width: 250px;
+        height: 250px;
+    }
+    .image_size_main{
+        width: 150px;
+        height: 150px;
+		border-radius: 10px 10px 10px 10px;
+    }
+	.title{
+		display: none;
+	}
+	.subtitle{
+		display: none;
+	}
+    
+}
+/*desktop*/
+@media (min-width: 768px) {
+   
+	
+	.form_contact {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		padding: 20px;
+	}
+	.div_messaje {
+		padding: 20px;
+	}
+	.div_email {
+		padding: 20px;
+	}
+	.main_section_article_div {
+		display: flex;
+		justify-content: center;
+	}
+	.main_section_article_divParrafo {
+		width: 300px;
+		height: 300px;
+	}
+	p {
+		font-family: variables.$font-anton;
+		font-size: medium;
+	}
+	
+	.main_section_article_divImage {
+		text-align: left;
+	}
+	.main_section_article_div_img {
+		width: 450px;
+		height: 300px;
+		border: solid #999 2px;
+	}
+	.image_size_main {
+		width: 300px;
+		height: 300px;
+		border-radius: 10px 10px 10px 10px;
+		
+	}
+	.main_section_div {
+		display: flex;
+		justify-content: space-evenly;
+
+	}
+	
+	.main_section_article_img {
+		display: inline-block;
+		width: 700px;
+		height: 700px;
+		
+	}
+	main{
+		article{
+
+			.main-card {
+				width: 13rem;
+				cursor: pointer;
+			  }
+			  .content {
+				text-align: center;
+				position: relative;
+				transition: all 2.25s;
+				background-color: rgb(127, 204, 240);
+				padding: 5em;
+				transform-style: preserve-3d;
+			  }
+			  
+			  .main-card:hover .content {
+				transform: rotateY(0.5turn);
+			  }
+			  
+			  .front,
+			  .back {
+				position: absolute;
+				top: 0;
+				left: 0;
+				bottom: 0;
+				right: 0;
+				padding: 2em;
+				transform-style: preserve-3d;
+				backface-visibility: hidden;
+			  }
+			  
+			  .title {
+				transform: translateZ(5rem);
+				font-size: 2rem;
+			  }
+			  
+			  .subtitle {
+				transform: translateZ(2rem);
+			  }
+			  
+			  .back {
+				transform: rotateY(0.5turn);
+				background-color: #009bff;
+			  }
+			  
+			  .description {
+				transform: translateZ(3rem);
+			  }
+			  
+		}
+	}
+}
