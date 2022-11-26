@@ -62,8 +62,10 @@
 @media (min-width: 768px) {
     
 	article{
+
 		.promo{
-			margin-bottom: 25px;
+			
+			min-height: 120px;
 		}
 		button{
 			--color: variables.$color_btn_footer;
@@ -117,8 +119,9 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		padding-left: 20px;
 	}
-   
+	
     
 	
 	.div-buy{

@@ -38,6 +38,9 @@
 	.title{
 		display: none;
 	}
+	.description-p{
+		display: none;
+	}
 	.subtitle{
 		display: none;
 	}
@@ -83,6 +86,7 @@
 		width: 300px;
 		height: 300px;
 		border-radius: 10px 10px 10px 10px;
+		display: flex;
 		
 	}
 	.main_section_div {

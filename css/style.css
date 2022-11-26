@@ -147,6 +147,9 @@
   .title {
     display: none;
   }
+  .description-p {
+    display: none;
+  }
   .subtitle {
     display: none;
   }
@@ -188,6 +191,7 @@
     width: 300px;
     height: 300px;
     border-radius: 10px 10px 10px 10px;
+    display: flex;
   }
   .main_section_div {
     display: flex;
@@ -458,7 +462,7 @@
 }
 @media (min-width: 768px) {
   article .promo {
-    margin-bottom: 25px;
+    min-height: 120px;
   }
   article button {
     --color: variables.$color_btn_footer;
@@ -508,6 +512,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-left: 20px;
   }
   .div-buy {
     padding-left: 100px;
