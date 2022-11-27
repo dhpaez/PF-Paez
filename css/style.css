@@ -514,8 +514,11 @@
     align-items: center;
     padding-left: 20px;
   }
+  .div-promo-select {
+    max-width: 440px;
+  }
   .div-buy {
-    padding-left: 100px;
+    margin: 15px auto;
   }
   .motion-img {
     animation: myAnim 2s ease 0s 1 normal forwards;
