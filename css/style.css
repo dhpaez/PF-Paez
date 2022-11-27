@@ -107,10 +107,9 @@
     background: -webkit-linear-gradient(top, #0E8AF5, #82C7F5);
   }
   .title_nav {
-    padding-left: 40px;
+    padding: 5px 30px 5px 30px;
   }
 }
-/*#8707ff - violeta #5ce1e6 - turquesa*/
 /*mobile*/
 @media screen and (min-width: 0px) and (max-width: 767px) {
   .main_section_article_divImage {
@@ -516,6 +515,9 @@
   }
   .div-promo-select {
     max-width: 440px;
+  }
+  .div-btn {
+    margin-top: 15px;
   }
   .div-buy {
     margin: 15px auto;
